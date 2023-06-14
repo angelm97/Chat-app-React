@@ -1,0 +1,69 @@
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background :rgb(71 85 105 / var(--tw-bg-opacity));
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .angel{
+    color: red !important;
+    overflow-y: scroll !important;
+}
+
+
+
+.bg-c{
+    background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
+.br-c{
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 23px;
+}
+
+
+
+.max-chat-c{
+    max-width: 50% !important;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.max-chat-cc{
+    max-width: 100% !important;
+    overflow-wrap: break-word;
+}
+
+.left-0-c {
+    right: -8px;
+}
+
+.max-h-full-c{
+    max-height: 100% !important;
+}
+
+
+@media screen and (max-width: 760px) {
+    .show-phone{
+        display: block !important;
+        width: 100vw !important;
+    }
+    
+    .hidden-phone{
+        display: none !important;
+    }
+  }
