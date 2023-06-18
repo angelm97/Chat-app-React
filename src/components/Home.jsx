@@ -11,9 +11,6 @@ import { onDisconnect, onValue, ref, set } from 'firebase/database';
 import mainImg from '../assets/img/mainroom.jpg'
 
 
-
-let angel = []
-
 const cookies = new Cookies();
 
 const Home = () => {
